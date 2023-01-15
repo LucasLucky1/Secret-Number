@@ -14,11 +14,9 @@ function onSpeak(e){
     chute.innerHTML = `<div>Você disse:</div> <span class="box" >${fala}</span>`;
     
     validaFala(fala);
-
+    
     
  }
+
+ recognition.addEventListener('end', ()=> recognition.start());
  
-
-
-
-
