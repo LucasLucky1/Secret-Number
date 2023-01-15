@@ -46,3 +46,19 @@ h3 {
     text-transform: uppercase;
 }
 
+.btn{
+    padding: 10px;
+    margin-top: 1em;
+    font-size: 0.7em;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 10px;
+
+    font-family: var(--font-family);
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
