@@ -39,5 +39,10 @@ h3 {
     font-size: 4em;
     padding: 10px;
     margin: 20px;
+    
+}
+
+.box::first-letter{
+    text-transform: uppercase;
 }
 
